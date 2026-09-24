@@ -30,14 +30,14 @@ export default function Home() {
             </h1>
           </motion.div>
 
-          <motion.p 
+          <motion.p
             className="text-lg sm:text-xl text-[#5C6B68] max-w-2xl mx-auto leading-relaxed"
             initial="hidden" animate="visible" variants={fadeIn}
           >
             RehabLens connects hospitals, doctors, and patients around a shared rehabilitation exercise library with on-device camera tracking that checks your form in real time.
           </motion.p>
 
-          <motion.div 
+          <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-2"
             initial="hidden" animate="visible" variants={fadeIn}
           >
@@ -62,7 +62,7 @@ export default function Home() {
 
       {/* Problem Section */}
       <section className="max-w-6xl mx-auto px-6 w-full">
-        <motion.div 
+        <motion.div
           className="grid grid-cols-1 md:grid-cols-3 gap-6"
           initial="hidden"
           whileInView="visible"
@@ -70,7 +70,7 @@ export default function Home() {
           variants={staggerContainer}
         >
           <motion.div variants={fadeIn} className="bg-white p-8 rounded-2xl border border-[#DDE5E4] shadow-sm">
-            <div className="text-3xl sm:text-4xl font-extrabold text-[#B89B6E] mb-3">1 in 170,000</div>
+            <div className="text-3xl sm:text-4xl font-extrabold text-[#B89B6E] mb-3">1 in 48,000</div>
             <p className="text-[#5C6B68] leading-relaxed">
               Nigeria has roughly one physiotherapist for every 170,000 people, making in-person follow-ups nearly impossible.
             </p>
@@ -99,7 +99,7 @@ export default function Home() {
           <p className="text-[#5C6B68]">Designed to bridge the gap between hospital care and home recovery.</p>
         </div>
 
-        <motion.div 
+        <motion.div
           className="grid grid-cols-1 md:grid-cols-3 gap-8"
           initial="hidden"
           whileInView="visible"
@@ -139,7 +139,7 @@ export default function Home() {
           <p className="text-[#5C6B68]">Built specifically for low-resource environments and high clinical accuracy.</p>
         </div>
 
-        <motion.div 
+        <motion.div
           className="grid grid-cols-1 md:grid-cols-2 gap-6"
           initial="hidden"
           whileInView="visible"
@@ -190,7 +190,7 @@ export default function Home() {
 
       {/* Download Section */}
       <section className="max-w-6xl mx-auto px-6 w-full">
-        <motion.div 
+        <motion.div
           className="bg-[#1E3F3A] text-white rounded-3xl p-10 md:p-16 text-center space-y-8 shadow-xl"
           initial="hidden"
           whileInView="visible"
