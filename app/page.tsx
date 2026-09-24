@@ -72,7 +72,7 @@ export default function Home() {
           <motion.div variants={fadeIn} className="bg-white p-8 rounded-2xl border border-[#DDE5E4] shadow-sm">
             <div className="text-3xl sm:text-4xl font-extrabold text-[#B89B6E] mb-3">1 in 48,000</div>
             <p className="text-[#5C6B68] leading-relaxed">
-              Nigeria has roughly one physiotherapist for every 170,000 people, making in-person follow-ups nearly impossible.
+              Nigeria has roughly one physiotherapist for every 48,000 people, making in-person follow-ups nearly impossible.
             </p>
           </motion.div>
 
